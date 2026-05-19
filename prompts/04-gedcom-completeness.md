@@ -1,6 +1,6 @@
 # GEDCOM Completeness
 
-Ensure every person in your family tree exists in your GEDCOM file with all known data.
+Ensure your GEDCOM matches your vault while protecting living and possibly living people.
 
 ## Inputs To Replace
 
@@ -16,7 +16,7 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
 
 ## Autoresearch Configuration
 
-**Goal**: Every named person in `[VAULT_PATH]/Family_Tree.md` should exist in `[GEDCOM_PATH]` with correct names, dates, places, and relationships.
+**Goal**: Every publishable deceased person in `[VAULT_PATH]/Family_Tree.md` should exist in `[GEDCOM_PATH]` with correct names, dates, places, and relationships. Living or possibly living people must be omitted, privatized, or reduced to non-identifying placeholders before sharing.
 
 **Metric**: Number of persons in Family_Tree.md who are missing from or incomplete in the GEDCOM
 
@@ -26,20 +26,23 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
 
 **Guard**:
 - Use GEDCOM 5.5.1 format (the most widely supported version)
-- Do not include living persons' full birth dates in the GEDCOM (privacy). Use birth year only or mark as "Living."
+- Do not include living or possibly living people's names, exact dates, places, notes, media paths, source details, or relationship structure in any GEDCOM intended for sharing.
+- For a private local GEDCOM, preserve living details only if the file stays local and the user explicitly asks for a private export.
+- For a shared GEDCOM, use privacy placeholders such as `Living Person` and remove links that identify parents, spouses, children, residences, schools, workplaces, DNA matches, or private notes.
 - Preserve existing GEDCOM data; do not overwrite entries that already exist unless they are demonstrably wrong
 
 **Iterations**: 10
 
 **Protocol**:
 
-1. **Build the master list**: Read `[VAULT_PATH]/Family_Tree.md`. For every named person, extract:
+1. **Build the master list**: Read `[VAULT_PATH]/Family_Tree.md`. Split people into publishable deceased, living, and possibly living before extracting details. For publishable deceased people, extract:
    - Full name
    - Birth date and place
    - Death date and place
    - Marriage(s) with date, place, and spouse
    - Parents
    - Children
+   For living or possibly living people, extract only the minimum needed to audit privacy status.
 
 2. **Read the GEDCOM** (or create one if it does not exist): Parse `[GEDCOM_PATH]` and build a parallel list of all INDI (individual) and FAM (family) records.
 
@@ -55,8 +58,9 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
    | [ANCESTOR] | MISSING | all | Not in GEDCOM |
    | [ANCESTOR-2] | INCOMPLETE | death_date, burial | Has INDI but missing data |
    ```
+   Include a separate privacy section listing living or possibly living people whose names, exact dates, places, notes, media, or relationship links must be removed before sharing.
 
-5. **Fix missing persons**: For each MISSING person, add a new INDI record:
+5. **Fix missing publishable persons**: For each MISSING publishable deceased person, add a new INDI record:
    ```
    0 @I[N]@ INDI
    1 NAME [Given] /[Surname]/
@@ -68,9 +72,9 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
    2 PLAC [Place]
    ```
 
-6. **Fix incomplete persons**: For each INCOMPLETE person, add the missing fields to the existing INDI record.
+6. **Fix incomplete publishable persons**: For each INCOMPLETE publishable deceased person, add the missing fields to the existing INDI record.
 
-7. **Fix relationships**: Ensure every marriage has a FAM record linking husband, wife, and children:
+7. **Fix publishable relationships**: Ensure publishable deceased relationships have FAM records linking husband, wife, and children. Remove or privatize any FAM record that exposes living or possibly living relationship structure in a shared export:
    ```
    0 @F[N]@ FAM
    1 HUSB @I[husband]@
@@ -86,6 +90,7 @@ Ensure every person in your family tree exists in your GEDCOM file with all know
    - Every FAM has at least HUSB or WIFE
    - No orphaned CHIL references (child ID exists as INDI)
    - No duplicate INDI records for the same person
+   - No living-person names, exact dates, places, notes, media paths, or relationship links in a shared GEDCOM
    - The file ends with `0 TRLR`
 
 ## GEDCOM 5.5.1 Quick Reference

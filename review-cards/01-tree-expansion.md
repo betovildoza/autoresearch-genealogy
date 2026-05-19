@@ -5,6 +5,7 @@ Prompt: [01 Tree Expansion](../prompts/01-tree-expansion.md)
 ## Good Output
 
 - New people are added only with source notes.
+- Weak leads are classified instead of being treated as tree growth.
 - Living or possibly living people are skipped.
 - Each added relationship has date, place, and family-context support.
 - Failed searches are logged in `Research_Log.md`.
@@ -17,6 +18,7 @@ Prompt: [01 Tree Expansion](../prompts/01-tree-expansion.md)
 - The output adds people without explaining the source.
 - Living people are searched or expanded.
 - The tree grows quickly but source quality does not improve.
+- The run reports only “new people added” instead of strong, moderate, speculative, rejected, and privacy-blocked candidates.
 
 ## Verify Manually
 
@@ -35,4 +37,3 @@ Prompt: [01 Tree Expansion](../prompts/01-tree-expansion.md)
 ## Next Prompt
 
 Run [02 Cross-Reference Audit](../prompts/02-cross-reference-audit.md).
-

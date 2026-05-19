@@ -63,7 +63,7 @@ The best results come from a partnership:
 
 ## Practical Expectations
 
-- **First session**: Expect to expand your tree by 20 to 50 individuals and create 30 to 60 vault files, depending on how much source material exists online
-- **Accuracy**: Plan to review every AI-added ancestor. Expect 90 to 95% accuracy on well-sourced additions, lower for speculative ones
-- **Diminishing returns**: The first session yields the most. Subsequent sessions target harder-to-find records and require more specialized searches
+- **First session**: Expect organization, source triage, and a few reviewed leads. Do not measure success by how many ancestors were added.
+- **Accuracy**: Plan to review every AI-suggested ancestor. Treat any unreviewed addition as a lead, not a fact.
+- **Diminishing returns**: Early sessions find obvious sources. Subsequent sessions target harder-to-find records and require more specialized searches.
 - **Dead ends**: Some ancestors simply cannot be found through free online sources. Accept that some questions may require paid databases, archive visits, or professional help

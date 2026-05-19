@@ -11,6 +11,8 @@ Working model of genetic ancestry. Based on consumer DNA testing.
 
 ## Raw Data Sources
 
+Keep raw DNA files local unless the tester has explicitly approved a third-party upload after reviewing privacy, consent, data-retention, and relative-impact tradeoffs. Redact living match names and kit identifiers before using AI tools.
+
 | Source | Date | File | Notes |
 |---|---|---|---|
 | [Provider] raw genome | [Date] | `[path to file]` | [SNP count], [chip version] |
@@ -63,6 +65,7 @@ Providers roughly agree; partial genealogical support.
 **~X% [Region/Population]**
 - [No known ancestor, or signal may be noise]
 - [Whether this warrants further investigation]
+- [Do not assign this signal to a specific ancestor without documentary support]
 
 ## Provider Bias Notes
 

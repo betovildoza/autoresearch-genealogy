@@ -8,10 +8,12 @@ How to plan genealogy research in phases, from free and immediate to expensive a
 **Goal**: Extract maximum value from data already in hand and free online sources.
 
 **Actions**:
+- Review living-person privacy before using AI
 - Organize and OCR all physical documents
 - Fill in Family_Tree.md with everything you know
-- Run the tree expansion prompt (searches free databases)
 - Run the cross-reference audit
+- Run the source citation audit
+- Run source-backed tree expansion only after privacy and source review
 - Run the Find a Grave sweep
 - Search FamilySearch wiki pages (free, no login for wiki)
 - Search free databases: Digitalarkivet (Norway), Geneteka (Poland), Matricula (Catholic records)
@@ -20,7 +22,7 @@ How to plan genealogy research in phases, from free and immediate to expensive a
 
 **Cost**: $0
 **Time**: 1 to 3 sessions with AI assistance
-**Expected yield**: 20 to 60 new ancestors, organized vault, identified gaps
+**Expected yield**: organized vault, identified gaps, source-backed leads, and fewer unsupported relationships
 
 ### Phase 2: Web Research (Free, Targeted Searches)
 **Goal**: Systematically search every free online database for records that would resolve open questions.
@@ -45,7 +47,7 @@ How to plan genealogy research in phases, from free and immediate to expensive a
 - Subscribe to Newspapers.com for obituaries and biographical articles
 - Order vital records from county clerks ($10 to $30 each)
 - Submit written requests to foreign archives (IKG Wien, state archives)
-- Upload DNA to GEDmatch ($0) or FamilyTreeDNA ($19 transfer)
+- Review DNA privacy and consent before any third-party raw DNA upload or transfer
 - Request USCIS naturalization records ($65 each)
 
 **Cost**: $50 to $300 depending on how many records you need

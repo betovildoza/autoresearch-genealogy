@@ -12,8 +12,10 @@ Complete inventory of all ancestry-related data assets. Each tagged with source,
 
 | File | Source | Type | Reliability | Suggested Use |
 |---|---|---|---|---|
-| [path to raw genome] | [Provider] | Raw SNP data | High (lab-generated) | Upload to GEDmatch; custom analysis |
+| [local path to raw genome] | [Provider] | Raw SNP data | High (lab-generated) | Store locally; analyze only with consent-aware privacy review |
 | [path to ethnicity PDF] | [Provider] | Ethnicity estimate | High | Primary ancestry reference |
+
+Raw DNA data can expose relatives, not just the tester. Do not upload or paste it into third-party tools unless the tester has reviewed privacy, consent, data-retention, and relative-impact tradeoffs.
 
 ## Genealogical Documents
 
