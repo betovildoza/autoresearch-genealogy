@@ -15,6 +15,8 @@ A step-by-step guide to setting up your genealogy research vault and running you
 2. Copy the entire `vault-template/` folder into your Obsidian vault (or your preferred location)
 3. Rename it to something meaningful (e.g., `Genealogy/`)
 
+If you do not want to use Obsidian, follow [No-Obsidian Setup](../guides/no-obsidian-setup.md). The files are plain markdown and work in Finder, File Explorer, or any text editor.
+
 Your folder structure should look like:
 
 ```

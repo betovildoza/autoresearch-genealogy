@@ -113,3 +113,5 @@ Use this shortest path:
 5. Stop after each prompt and review.
 
 The goal is not to build the biggest tree. The goal is to build a tree you can trust.
+
+If you do not use Obsidian, use [No-Obsidian Setup](guides/no-obsidian-setup.md).
