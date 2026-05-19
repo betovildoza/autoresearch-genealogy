@@ -29,7 +29,7 @@ Every numbered prompt begins with `Inputs To Replace`, then contains these autor
 If you are unsure, use [Prompt Picker](../guides/prompt-picker.md). It routes you through setup, privacy, verification, and bundle choices before you run a numbered prompt.
 
 **Starting from scratch?**
-Start with `01-tree-expansion`. It will search the web for every ancestor you've listed and try to extend every branch.
+Do not start with tree expansion. Use [Download And Start](../guides/download-and-start.md), [First Week Checklist](../checklists/first-week-checklist.md), and [Prompt Picker](../guides/prompt-picker.md). Run verification or citation review before expansion.
 
 **Already have a populated tree?**
 Run `02-cross-reference-audit` to find and fix discrepancies between your tree file and your source documents.
@@ -63,7 +63,7 @@ Every prompt has a matching review card. Read the card after the prompt finishes
 
 | Prompt | Requires |
 |---|---|
-| 01-tree-expansion | A `Family_Tree.md` file with at least your known ancestors listed |
+| 01-tree-expansion | A privacy-reviewed, source-labeled `Family_Tree.md` with deceased targets and review capacity |
 | 02-cross-reference-audit | A populated `Family_Tree.md` plus person files or transcription notes |
 | 03-findagrave-sweep | A `Family_Tree.md` with death dates or "deceased" notations |
 | 04-gedcom-completeness | A `Family_Tree.md` and optionally an existing `.ged` file |

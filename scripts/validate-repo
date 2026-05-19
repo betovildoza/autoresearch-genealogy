@@ -19,6 +19,7 @@ REQUIRED_FIXTURES = %w[
 ].freeze
 REQUIRED_NORMIE_FILES = %w[
   START_HERE.md
+  guides/download-and-start.md
   guides/prompt-picker.md
   guides/privacy-mode.md
   guides/no-obsidian-setup.md
@@ -62,6 +63,33 @@ PUBLIC_PRIVACY_PATTERNS = [
   {
     label: "US Social Security number pattern",
     pattern: /\b\d{3}-\d{2}-\d{4}\b/
+  }
+].freeze
+FIRST_RUN_ROUTE_FILES = %w[
+  README.md
+  prompts/README.md
+  workflows/getting-started.md
+].freeze
+FIRST_RUN_FORBIDDEN_PATTERNS = [
+  {
+    label: "expansion-first quick start",
+    pattern: /Open Claude Code, paste the contents of `prompts\/01-tree-expansion\.md`/
+  },
+  {
+    label: "start from scratch with expansion",
+    pattern: /Start with `01-tree-expansion`/
+  },
+  {
+    label: "expansion before audit",
+    pattern: /After expanding the tree, verify/
+  },
+  {
+    label: "raw growth reporting",
+    pattern: /Report how many new individuals were found/
+  },
+  {
+    label: "old expansion workflow heading",
+    pattern: /^## Step 4: Run the Tree Expansion Prompt/
   }
 ].freeze
 
@@ -246,6 +274,15 @@ def check_normie_usability
   error("guides/privacy-mode.md: must include a living-person checklist") unless text.include?("## Living-Person Checklist")
 end
 
+def check_first_run_routes
+  FIRST_RUN_ROUTE_FILES.each do |path|
+    text = read(path)
+    FIRST_RUN_FORBIDDEN_PATTERNS.each do |rule|
+      error("#{path}: #{rule[:label]} conflicts with source-first beginner route") if text.match?(rule[:pattern])
+    end
+  end
+end
+
 def check_optional_privacy_denylist
   denylist_path = File.join(ROOT, ".private/anonymization-denylist.txt")
   return unless File.exist?(denylist_path)
@@ -274,6 +311,7 @@ check_fixtures
 check_review_cards
 check_normie_usability
 check_public_privacy_patterns
+check_first_run_routes
 check_optional_privacy_denylist
 
 if @errors.empty?

@@ -14,20 +14,20 @@ This project extracts and generalizes methods developed during a real genealogy 
 
 If you are new to AI-assisted genealogy, start with [START_HERE.md](START_HERE.md). It routes you by what you already have: names, documents, DNA results, an existing tree, or a finding you need to verify.
 
-1. Clone this repo
-2. Copy the `vault-template/` folder into your Obsidian vault (or any markdown editor)
+1. If you do not use Git, follow [Download And Start](guides/download-and-start.md).
+2. Copy the [vault-template](vault-template/) folder into your Obsidian vault or any markdown editor.
 3. Fill in `Family_Tree.md` with what you already know. Mark living or possibly living people clearly and avoid exact birth dates for them.
-4. Scan any physical documents you have (certificates, photos, letters)
-5. Open Claude Code, paste the contents of `prompts/01-tree-expansion.md`, replace the inputs, and run it
-6. Review the results, then run `prompts/02-cross-reference-audit.md` to verify
+4. Use [Privacy Mode](guides/privacy-mode.md) and [First Week Checklist](checklists/first-week-checklist.md).
+5. Use [Prompt Picker](guides/prompt-picker.md) to choose a verification or source-inventory prompt before expansion.
+6. Run [02 Cross-Reference Audit](prompts/02-cross-reference-audit.md) or [05 Source Citation Audit](prompts/05-source-citation-audit.md) before [01 Source-Backed Tree Expansion](prompts/01-tree-expansion.md).
 
-See `workflows/getting-started.md` for the full walkthrough.
+See [Getting Started](workflows/getting-started.md) for the full walkthrough.
 
 ## What's Included
 
 ### Beginner Guides (`guides/`)
 
-Start with [Prompt Picker](guides/prompt-picker.md) when you do not know what to run. The bundle guides package prompts into safer workflows:
+Start with [Download And Start](guides/download-and-start.md) if you do not use Git. Use [Prompt Picker](guides/prompt-picker.md) when you do not know what to run. The bundle guides package prompts into safer workflows:
 
 - [Beginner Pack](guides/bundles/beginner-pack.md)
 - [Document Pack](guides/bundles/document-pack.md)
@@ -51,7 +51,7 @@ Before using public AI tools or sharing exports, follow [Privacy Mode](guides/pr
 
 | Prompt | Purpose |
 |---|---|
-| 01-tree-expansion | Push every branch as far back as possible using web research |
+| 01-tree-expansion | Review source-backed candidate relationships for deceased ancestors |
 | 02-cross-reference-audit | Find and fix discrepancies between your tree and source documents |
 | 03-findagrave-sweep | Locate Find a Grave memorials for every deceased ancestor |
 | 04-gedcom-completeness | Ensure your GEDCOM file matches your vault data |

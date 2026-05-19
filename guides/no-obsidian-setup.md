@@ -13,7 +13,7 @@ No command line is required.
 
 ## Set Up The Folder
 
-1. Download or clone this repository.
+1. Follow [Download And Start](download-and-start.md).
 2. Copy the `vault-template/` folder.
 3. Rename the copy to `Genealogy`.
 4. Put it somewhere easy to find.
@@ -105,4 +105,3 @@ Add more template files only when they solve a real problem:
 - Use `Witness_Network.md` when names repeat across records.
 
 Start small. A simple, sourced folder beats a complicated folder you stop using.
-

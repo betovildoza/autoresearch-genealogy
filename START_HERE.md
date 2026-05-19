@@ -21,9 +21,10 @@ For the full privacy checklist, use [Privacy Mode](guides/privacy-mode.md).
 
 Start with:
 
-1. `workflows/getting-started.md`
-2. `checklists/first-week-checklist.md`
-3. `guides/bundles/beginner-pack.md`
+1. [Download And Start](guides/download-and-start.md)
+2. [Getting Started](workflows/getting-started.md)
+3. [First Week Checklist](checklists/first-week-checklist.md)
+4. [Beginner Pack](guides/bundles/beginner-pack.md)
 
 Do not run autonomous tree expansion yet. First write down what you already know, mark living people, and list where each claim came from.
 
@@ -31,10 +32,10 @@ Do not run autonomous tree expansion yet. First write down what you already know
 
 Start with:
 
-1. `checklists/scan-your-documents.md`
-2. `workflows/document-triage.md`
-3. `workflows/ocr-pipeline.md`
-4. `guides/bundles/document-pack.md`
+1. [Scan Your Documents](checklists/scan-your-documents.md)
+2. [Document Triage](workflows/document-triage.md)
+3. [OCR Pipeline](workflows/ocr-pipeline.md)
+4. [Document Pack](guides/bundles/document-pack.md)
 
 Your first win is turning boxes of documents into searchable notes. Do not add new ancestors until the document source is clear.
 
@@ -42,9 +43,9 @@ Your first win is turning boxes of documents into searchable notes. Do not add n
 
 Start with:
 
-1. `reference/dna-interpretation-guardrails.md`
-2. `guides/plain-language/evidence-vs-clues.md`
-3. `guides/bundles/dna-pack.md`
+1. [DNA Interpretation Guardrails](reference/dna-interpretation-guardrails.md)
+2. [Evidence Vs Clues](guides/plain-language/evidence-vs-clues.md)
+3. [DNA Pack](guides/bundles/dna-pack.md)
 
 DNA can point you toward a branch. It usually cannot prove a specific ancestor by itself.
 
@@ -52,10 +53,10 @@ DNA can point you toward a branch. It usually cannot prove a specific ancestor b
 
 Start with:
 
-1. `guides/prompt-picker.md`
-2. `guides/bundles/verification-pack.md`
-3. `prompts/02-cross-reference-audit.md`
-4. `prompts/05-source-citation-audit.md`
+1. [Prompt Picker](guides/prompt-picker.md)
+2. [Verification Pack](guides/bundles/verification-pack.md)
+3. [02 Cross-Reference Audit](prompts/02-cross-reference-audit.md)
+4. [05 Source Citation Audit](prompts/05-source-citation-audit.md)
 
 Verify before you expand. A bigger wrong tree is harder to fix than a smaller uncertain one.
 
@@ -63,9 +64,9 @@ Verify before you expand. A bigger wrong tree is harder to fix than a smaller un
 
 Start with:
 
-1. `checklists/verify-an-ai-finding.md`
-2. `checklists/before-you-add-an-ancestor.md`
-3. `review-cards/01-tree-expansion.md`
+1. [Verify An AI Finding](checklists/verify-an-ai-finding.md)
+2. [Before You Add An Ancestor](checklists/before-you-add-an-ancestor.md)
+3. [Tree Expansion Review Card](review-cards/01-tree-expansion.md)
 
 Only accept the finding if the source, identity match, dates, location, and relationship all make sense.
 
@@ -74,8 +75,8 @@ Only accept the finding if the source, identity match, dates, location, and rela
 Start with:
 
 1. [Privacy Mode](guides/privacy-mode.md)
-2. `checklists/share-safely.md`
-3. `prompts/04-gedcom-completeness.md`
+2. [Share Safely](checklists/share-safely.md)
+3. [04 GEDCOM Completeness](prompts/04-gedcom-completeness.md)
 
 Redact living people before sharing anything outside your private workspace.
 
@@ -83,10 +84,10 @@ Redact living people before sharing anything outside your private workspace.
 
 Use this when you want to see the loop quickly without risking real family data.
 
-1. Open `fixtures/minimal-vault/Family_Tree.md`.
-2. Open `fixtures/golden-runs/01-tree-expansion.md`.
+1. Open [fixtures/minimal-vault/Family_Tree.md](fixtures/minimal-vault/Family_Tree.md).
+2. Open [fixtures/golden-runs/01-tree-expansion.md](fixtures/golden-runs/01-tree-expansion.md).
 3. Read the “Expected Safety Behavior” section.
-4. Compare it with `prompts/01-tree-expansion.md`.
+4. Compare it with [prompts/01-tree-expansion.md](prompts/01-tree-expansion.md).
 5. Notice that living people are skipped, speculative leads stay speculative, and negative results are logged.
 
 That is the standard you should expect before running prompts on real research.

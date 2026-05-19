@@ -86,18 +86,18 @@ Next action: use `guides/bundles/advanced-pack.md`.
 
 | Prompt | Use when | Review card |
 |---|---|---|
-| [01 Tree Expansion](../prompts/01-tree-expansion.md) | You have a sourced starter tree and want to look for parents, siblings, and older generations | `review-cards/01-tree-expansion.md` |
-| [02 Cross-Reference Audit](../prompts/02-cross-reference-audit.md) | Your tree and documents may disagree, or you want verification before expansion | `review-cards/02-cross-reference-audit.md` |
-| [03 Find a Grave Sweep](../prompts/03-findagrave-sweep.md) | You have deceased ancestors with enough death or burial context to search memorials | `review-cards/03-findagrave-sweep.md` |
-| [04 GEDCOM Completeness](../prompts/04-gedcom-completeness.md) | You want to export or compare a GEDCOM file against your vault | `review-cards/04-gedcom-completeness.md` |
-| [05 Source Citation Audit](../prompts/05-source-citation-audit.md) | You want to know which people or claims are under-sourced | `review-cards/05-source-citation-audit.md` |
-| [06 Unresolved Persons](../prompts/06-unresolved-persons.md) | Documents mention unknown relatives, witnesses, neighbors, or informants | `review-cards/06-unresolved-persons.md` |
-| [07 Timeline Gap Analysis](../prompts/07-timeline-gap-analysis.md) | A person has missing life events where records should probably exist | `review-cards/07-timeline-gap-analysis.md` |
-| [08 Open Question Resolution](../prompts/08-open-question-resolution.md) | You have explicit questions in `Open_Questions.md` and want focused resolution | `review-cards/08-open-question-resolution.md` |
-| [09 Local History Extraction](../prompts/09-bygdebok-extraction.md) | You have digitized local histories, bygdeboker, village books, or county histories | `review-cards/09-bygdebok-extraction.md` |
-| [10 Colonial Records Search](../prompts/10-colonial-records-search.md) | You are researching pre-1800 American lines with sparse vital records | `review-cards/10-colonial-records-search.md` |
-| [11 Immigration Search](../prompts/11-immigration-search.md) | You need passenger lists, border crossings, naturalization records, or origin clues | `review-cards/11-immigration-search.md` |
-| [12 DNA Chromosome Analysis](../prompts/12-dna-chromosome-analysis.md) | You have segment data and want leads that stay separate from documentary proof | `review-cards/12-dna-chromosome-analysis.md` |
+| [01 Tree Expansion](../prompts/01-tree-expansion.md) | You have a sourced starter tree and want to look for parents, siblings, and older generations | [review card](../review-cards/01-tree-expansion.md) |
+| [02 Cross-Reference Audit](../prompts/02-cross-reference-audit.md) | Your tree and documents may disagree, or you want verification before expansion | [review card](../review-cards/02-cross-reference-audit.md) |
+| [03 Find a Grave Sweep](../prompts/03-findagrave-sweep.md) | You have deceased ancestors with enough death or burial context to search memorials | [review card](../review-cards/03-findagrave-sweep.md) |
+| [04 GEDCOM Completeness](../prompts/04-gedcom-completeness.md) | You want to export or compare a GEDCOM file against your vault | [review card](../review-cards/04-gedcom-completeness.md) |
+| [05 Source Citation Audit](../prompts/05-source-citation-audit.md) | You want to know which people or claims are under-sourced | [review card](../review-cards/05-source-citation-audit.md) |
+| [06 Unresolved Persons](../prompts/06-unresolved-persons.md) | Documents mention unknown relatives, witnesses, neighbors, or informants | [review card](../review-cards/06-unresolved-persons.md) |
+| [07 Timeline Gap Analysis](../prompts/07-timeline-gap-analysis.md) | A person has missing life events where records should probably exist | [review card](../review-cards/07-timeline-gap-analysis.md) |
+| [08 Open Question Resolution](../prompts/08-open-question-resolution.md) | You have explicit questions in `Open_Questions.md` and want focused resolution | [review card](../review-cards/08-open-question-resolution.md) |
+| [09 Local History Extraction](../prompts/09-bygdebok-extraction.md) | You have digitized local histories, bygdeboker, village books, or county histories | [review card](../review-cards/09-bygdebok-extraction.md) |
+| [10 Colonial Records Search](../prompts/10-colonial-records-search.md) | You are researching pre-1800 American lines with sparse vital records | [review card](../review-cards/10-colonial-records-search.md) |
+| [11 Immigration Search](../prompts/11-immigration-search.md) | You need passenger lists, border crossings, naturalization records, or origin clues | [review card](../review-cards/11-immigration-search.md) |
+| [12 DNA Chromosome Analysis](../prompts/12-dna-chromosome-analysis.md) | You have segment data and want leads that stay separate from documentary proof | [review card](../review-cards/12-dna-chromosome-analysis.md) |
 
 ## Risky States
 

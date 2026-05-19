@@ -11,7 +11,7 @@ A step-by-step guide to setting up your genealogy research vault and running you
 
 ## Step 1: Set Up Your Vault
 
-1. Clone or download this repository
+1. Follow [Download And Start](../guides/download-and-start.md), or clone this repository if you already use Git
 2. Copy the entire `vault-template/` folder into your Obsidian vault (or your preferred location)
 3. Rename it to something meaningful (e.g., `Genealogy/`)
 
@@ -95,53 +95,43 @@ If you have physical documents (old photos, certificates, letters, postcards, mi
 
 Update `Data_Inventory.md` with your scan collections.
 
-## Step 4: Run the Tree Expansion Prompt
+## Step 4: Choose A Safe First Prompt
 
-1. Open Claude Code in your genealogy vault directory
-2. Type `/autoresearch` (or paste the prompt contents directly)
-3. Paste the contents of `prompts/01-tree-expansion.md`
-4. Replace all placeholders:
-   - `[VAULT_PATH]` → the path to your genealogy folder
-   - Other placeholders as needed
-5. Let it run
+Before expansion, use [Prompt Picker](../guides/prompt-picker.md).
 
-The AI will:
-- Read your entire family tree
-- Search the web for every ancestor's parents, siblings, and extended family
-- Add new ancestors to your tree (with sources)
-- Log every search in your Research Log
-- Report how many new individuals were found
+For most first sessions, choose one of these:
 
-**Expect**: 8 iterations, each adding a few ancestors. After completion, review the changes.
+- [05 Source Citation Audit](../prompts/05-source-citation-audit.md) if you need to identify weak or missing sources.
+- [02 Cross-Reference Audit](../prompts/02-cross-reference-audit.md) if your tree and documents may disagree.
+- [Beginner Pack](../guides/bundles/beginner-pack.md) if you want a guided order.
 
-## Step 5: Run the Cross-Reference Audit
+Do not run source-backed tree expansion until living people are protected and the starting facts are source-labeled.
 
-After expanding the tree, verify the data:
+## Step 5: Run A Verification Prompt
 
-1. Paste the contents of `prompts/02-cross-reference-audit.md`
+1. Open Claude Code in your genealogy vault directory, or use another AI tool that can read your files.
+2. Type `/autoresearch` if your tool supports it, or paste the prompt contents directly.
+3. Paste [05 Source Citation Audit](../prompts/05-source-citation-audit.md) or [02 Cross-Reference Audit](../prompts/02-cross-reference-audit.md).
 2. Replace placeholders
 3. Let it run
 
-This will catch discrepancies introduced during expansion (conflicting dates, misspelled names, incorrect locations) and fix them using the source hierarchy.
+This gives you a source map and discrepancy list before the AI tries to add new ancestors.
 
-## Step 6: Review and Plan Next Research
+## Step 6: Review Before Expansion
 
-After the first two prompts, you will have:
-- An expanded family tree with sources
-- A research log documenting every search
-- An audit file showing any discrepancies found and resolved
-
-Now review:
+After the first verification prompt, review:
 
 1. **Open Questions**: What gaps remain? Add them to `Open_Questions.md` with priority rankings.
-2. **Person files**: For important ancestors, create person files using the template. This centralizes everything known about one individual.
-3. **Regional research**: If your family comes from a specific country or region, create a region file to track geographic-specific research.
-4. **Next prompts**: Consider running `03-findagrave-sweep` or `04-gedcom-completeness` depending on your goals.
+2. **Person files**: For important ancestors, create person files using the template.
+3. **Weak sources**: Keep unsourced relationships marked `speculative`.
+4. **Next prompts**: Consider [01 Source-Backed Tree Expansion](../prompts/01-tree-expansion.md) only for deceased, source-suitable targets.
+
+Use [Tree Expansion Review Card](../review-cards/01-tree-expansion.md) before accepting any expansion result.
 
 ## What to Do Next
 
-- **Want to find burial records?** Run the Find a Grave sweep (`prompts/03-findagrave-sweep.md`)
-- **Want to export your tree?** Run the GEDCOM completeness check (`prompts/04-gedcom-completeness.md`)
-- **Have scanned documents to process?** See `workflows/ocr-pipeline.md`
-- **Want to understand your DNA results?** See `reference/dna-interpretation-guardrails.md`
-- **Want to understand the methodology?** See `reference/why-autoresearch-for-genealogy.md`
+- **Want to find burial records?** Run [03 Find a Grave Sweep](../prompts/03-findagrave-sweep.md)
+- **Want to export your tree?** Run [04 GEDCOM Completeness](../prompts/04-gedcom-completeness.md)
+- **Have scanned documents to process?** See [OCR Pipeline](ocr-pipeline.md)
+- **Want to understand your DNA results?** See [DNA Interpretation Guardrails](../reference/dna-interpretation-guardrails.md)
+- **Want to understand the methodology?** See [Why Autoresearch For Genealogy](../reference/why-autoresearch-for-genealogy.md)
