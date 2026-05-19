@@ -33,6 +33,20 @@
 - [ ] User can identify what to redact before sharing a GEDCOM, prompt, or repo.
 - [ ] Contributor can run `scripts/privacy-audit-repo`.
 
+## User Scenario 6: No Obsidian
+
+- [ ] Open `guides/no-obsidian-setup.md`.
+- [ ] User can identify the four minimal starter files.
+- [ ] User can understand wikilinks as filenames.
+- [ ] User is not required to use the command line.
+
+## User Scenario 7: Prompt Review
+
+- [ ] Open `prompts/README.md`.
+- [ ] Every numbered prompt has a linked review card.
+- [ ] Open `review-cards/01-tree-expansion.md`.
+- [ ] User sees what to accept, what to reject, and what to run next.
+
 ## Validation
 
 - [ ] `scripts/validate-repo` passes.

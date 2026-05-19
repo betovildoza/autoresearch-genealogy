@@ -11,14 +11,14 @@
 | 06 | Fictional Walkthrough | done | validate-repo, privacy-audit | 72c1405 |
 | 07 | Plain-Language Reference | done | validate-repo, privacy-audit | c889119 |
 | 08 | Obsidian-Lite Setup | done | validate-repo, privacy-audit | c63f6fc |
-| 09 | Privacy Mode | done | validate-repo, privacy-audit | pending |
+| 09 | Privacy Mode | done | validate-repo, privacy-audit | 0772b12 |
 | 10 | Optional Static Site | deferred | - | - |
 
-## Current: Spec 10 - Optional Static Site
+## Current: MVP Complete
 
-Spec 09 complete. Static site remains deferred.
+Specs 01 through 09 are complete. Spec 10 static site remains deferred because the markdown-first layer is usable directly in GitHub, local folders, and markdown editors.
 
-## Implementation Order
+## Implemented Scope
 
 1. Start Here
 2. Privacy Mode
@@ -30,7 +30,7 @@ Spec 09 complete. Static site remains deferred.
 8. Plain-Language Reference
 9. No-Obsidian Setup
 10. Remaining bundles
-11. Optional static site decision
+11. Optional static site decision, deferred
 
 ## Log
 
