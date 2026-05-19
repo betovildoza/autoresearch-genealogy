@@ -7,16 +7,16 @@
 | 02 | Prompt Picker | done | validate-repo, privacy-audit | 7cd4729 |
 | 03 | Prompt Bundles | done | validate-repo, privacy-audit | 151a9c4 |
 | 04 | Checklists | done | validate-repo, privacy-audit | 6c24b15 |
-| 05 | Human Review Cards | done | validate-repo, privacy-audit | pending |
-| 06 | Fictional Walkthrough | pending | - | - |
+| 05 | Human Review Cards | done | validate-repo, privacy-audit | df20f95 |
+| 06 | Fictional Walkthrough | done | validate-repo, privacy-audit | pending |
 | 07 | Plain-Language Reference | pending | - | - |
 | 08 | Obsidian-Lite Setup | pending | - | - |
 | 09 | Privacy Mode | pending | - | - |
 | 10 | Optional Static Site | deferred | - | - |
 
-## Current: Spec 06 - Fictional Walkthrough
+## Current: Spec 07 - Plain-Language Reference
 
-Spec 05 complete. Next build step is `walkthroughs/first-run.md`.
+Spec 06 complete. Next build step is `guides/plain-language/`.
 
 ## Implementation Order
 
@@ -40,3 +40,4 @@ Spec 05 complete. Next build step is `walkthroughs/first-run.md`.
 - 2026-05-19 Added five beginner workflow bundles.
 - 2026-05-19 Added six beginner checklists.
 - 2026-05-19 Added review cards for all twelve prompts and validator coverage.
+- 2026-05-19 Added a synthetic first-run walkthrough.

@@ -37,6 +37,8 @@ Start with [Prompt Picker](guides/prompt-picker.md) when you do not know what to
 
 Printable checklists cover [first-week setup](checklists/first-week-checklist.md), [scanning documents](checklists/scan-your-documents.md), [interviewing relatives](checklists/interview-a-relative.md), [verifying AI findings](checklists/verify-an-ai-finding.md), [adding ancestors](checklists/before-you-add-an-ancestor.md), and [sharing safely](checklists/share-safely.md).
 
+For a privacy-safe dry run, use the [First Run Walkthrough](walkthroughs/first-run.md) with the synthetic fixture.
+
 ### Prompts (`prompts/`)
 
 12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines inputs to replace, a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
