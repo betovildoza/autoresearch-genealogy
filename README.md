@@ -12,6 +12,8 @@ This project extracts and generalizes methods developed during a real genealogy 
 
 ## Quick Start
 
+If you are new to AI-assisted genealogy, start with [START_HERE.md](START_HERE.md). It routes you by what you already have: names, documents, DNA results, an existing tree, or a finding you need to verify.
+
 1. Clone this repo
 2. Copy the `vault-template/` folder into your Obsidian vault (or any markdown editor)
 3. Fill in `Family_Tree.md` with what you already know. Mark living or possibly living people clearly and avoid exact birth dates for them.
