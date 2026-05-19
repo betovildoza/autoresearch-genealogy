@@ -49,5 +49,14 @@
 
 ## Validation
 
-- [ ] `scripts/validate-repo` passes.
-- [ ] `scripts/privacy-audit-repo` passes with local denylist.
+- [x] `scripts/validate-repo` passes.
+- [x] `scripts/privacy-audit-repo` passes with local denylist.
+
+## Safety And UX Polish Proxy Check
+
+- [x] README, prompts README, and getting-started workflow no longer route beginners into tree expansion first.
+- [x] `START_HERE.md` primary route entries are clickable links.
+- [x] Download-first setup exists for users who do not use Git.
+- [x] Privacy audit reports use fingerprints instead of exact denylist terms.
+- [x] Private vault validator passes after exact-date privacy hardening.
+- [ ] Manual UAT with outside users remains to be done.

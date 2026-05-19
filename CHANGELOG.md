@@ -21,11 +21,17 @@ Initial sanitized public release.
 - Plain-language evidence guides for source grades, clues, AI failure modes, and proof.
 - No-Obsidian setup guide for normal folders and markdown editors.
 - Privacy Mode guide for redaction, GEDCOM sharing, public repo safety, and local privacy audits.
+- Download-first setup guide for users who do not use Git.
+- Public privacy pattern checks in `scripts/validate-repo`.
 
 ### Changed
 - Public examples now use fictional names, locations, and percentages.
 - GEDCOM and naming examples now use generic sample places and surnames.
 - `scripts/validate-repo` now checks review-card coverage and required beginner usability files.
+- `scripts/privacy-audit-repo` now writes reports outside the repo by default and redacts matched denylist terms with fingerprints.
+- First-run docs now route users through privacy, source inventory, and verification before source-backed tree expansion.
+- Tree expansion now optimizes source-backed relationship classification instead of raw ancestor count.
+- GEDCOM and DNA prompts now include stricter living-person, relationship-structure, raw DNA, and consent guardrails.
 
 ### Notes
 - The fixture data is synthetic and should not be treated as genealogical evidence.

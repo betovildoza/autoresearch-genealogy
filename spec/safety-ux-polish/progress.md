@@ -5,12 +5,12 @@
 | 00 | Overview | done | - | - |
 | 01 | Privacy Audit Hardening | done | validate-repo, privacy-audit, redaction-test, private-vault-validator | cda580b |
 | 02 | Prompt Guardrails | done | validate-repo, privacy-audit, grep guardrail check | 4bcc283 |
-| 03 | First-Run UX Route | done | validate-repo, privacy-audit, route-grep | pending |
-| 04 | Mirror And UAT Notes | pending | - | - |
+| 03 | First-Run UX Route | done | validate-repo, privacy-audit, route-grep | 086826b |
+| 04 | Mirror And UAT Notes | done | validate-repo, privacy-audit, private-mirror-validate, private-vault-validator | pending |
 
-## Current: Spec 04 - Mirror And UAT Notes
+## Current: Complete
 
-Spec 03 complete. Next build step is private mirror sync and final validation notes.
+Safety and UX polish is complete. Private mirror sync is performed after this public commit.
 
 ## Log
 
@@ -18,3 +18,4 @@ Spec 03 complete. Next build step is private mirror sync and final validation no
 - 2026-05-19 Hardened privacy audit reporting, public privacy checks, and private date validation.
 - 2026-05-19 Tightened tree expansion, GEDCOM, and DNA prompt guardrails.
 - 2026-05-19 Unified first-run route, added download-first setup, and linked primary beginner paths.
+- 2026-05-19 Added changelog and UAT notes for safety and first-run UX polish.
