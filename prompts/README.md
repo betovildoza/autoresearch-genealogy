@@ -26,6 +26,8 @@ Every numbered prompt begins with `Inputs To Replace`, then contains these autor
 
 ## Which Prompt to Use When
 
+If you are unsure, use [Prompt Picker](../guides/prompt-picker.md). It routes you through setup, privacy, verification, and bundle choices before you run a numbered prompt.
+
 **Starting from scratch?**
 Start with `01-tree-expansion`. It will search the web for every ancestor you've listed and try to extend every branch.
 
