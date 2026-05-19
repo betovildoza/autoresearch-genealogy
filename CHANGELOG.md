@@ -14,6 +14,7 @@ Initial sanitized public release.
 - Contribution guidance, including an optional local anonymization denylist.
 - Archive guide `last_verified` metadata.
 - Synthetic `fixtures/minimal-vault/` and `fixtures/golden-runs/01-tree-expansion.md` for safe prompt behavior review.
+- Build scope for a markdown-first nontechnical usability layer under `spec/normie-usability/`.
 
 ### Changed
 - Public examples now use fictional names, locations, and percentages.
