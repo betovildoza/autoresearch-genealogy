@@ -6,7 +6,7 @@
 | 01 | Privacy Audit Hardening | done | validate-repo, privacy-audit, redaction-test, private-vault-validator | cda580b |
 | 02 | Prompt Guardrails | done | validate-repo, privacy-audit, grep guardrail check | 4bcc283 |
 | 03 | First-Run UX Route | done | validate-repo, privacy-audit, route-grep | 086826b |
-| 04 | Mirror And UAT Notes | done | validate-repo, privacy-audit, private-mirror-validate, private-vault-validator | pending |
+| 04 | Mirror And UAT Notes | done | validate-repo, privacy-audit, private-mirror-validate, private-vault-validator | 69e0fe9 |
 
 ## Current: Complete
 
