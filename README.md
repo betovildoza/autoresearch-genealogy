@@ -25,6 +25,16 @@ See `workflows/getting-started.md` for the full walkthrough.
 
 ## What's Included
 
+### Beginner Guides (`guides/`)
+
+Start with [Prompt Picker](guides/prompt-picker.md) when you do not know what to run. The bundle guides package prompts into safer workflows:
+
+- [Beginner Pack](guides/bundles/beginner-pack.md)
+- [Document Pack](guides/bundles/document-pack.md)
+- [DNA Pack](guides/bundles/dna-pack.md)
+- [Verification Pack](guides/bundles/verification-pack.md)
+- [Advanced Pack](guides/bundles/advanced-pack.md)
+
 ### Prompts (`prompts/`)
 
 12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines inputs to replace, a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.

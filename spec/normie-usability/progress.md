@@ -4,8 +4,8 @@
 |---|------|--------|-------|--------|
 | 00 | Overview | done | - | - |
 | 01 | Start Here | done | validate-repo, privacy-audit | 70d8812 |
-| 02 | Prompt Picker | done | validate-repo, privacy-audit | pending |
-| 03 | Prompt Bundles | pending | - | - |
+| 02 | Prompt Picker | done | validate-repo, privacy-audit | 7cd4729 |
+| 03 | Prompt Bundles | done | validate-repo, privacy-audit | pending |
 | 04 | Checklists | pending | - | - |
 | 05 | Human Review Cards | pending | - | - |
 | 06 | Fictional Walkthrough | pending | - | - |
@@ -14,9 +14,9 @@
 | 09 | Privacy Mode | pending | - | - |
 | 10 | Optional Static Site | deferred | - | - |
 
-## Current: Spec 03 - Prompt Bundles
+## Current: Spec 04 - Checklists
 
-Spec 02 complete. Next build step is `guides/bundles/`.
+Spec 03 complete. Next build step is `checklists/`.
 
 ## Implementation Order
 
@@ -37,3 +37,4 @@ Spec 02 complete. Next build step is `guides/bundles/`.
 - 2026-05-19 Scoped the full normie usability layer as a markdown-first MVP with optional static site deferred.
 - 2026-05-19 Added `START_HERE.md` and routed README users to it.
 - 2026-05-19 Added prompt picker decision tree and prompt matrix.
+- 2026-05-19 Added five beginner workflow bundles.
