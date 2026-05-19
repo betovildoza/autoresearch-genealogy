@@ -85,3 +85,5 @@ Each prompt also lists any prompt-specific placeholders such as `[DEATH YEAR]`, 
 ## Privacy
 
 Autonomous prompts should not search living people. Mark living and possibly living people in your vault before running tree expansion, and redact exact dates or contact details for anyone living or possibly living.
+
+Use [Privacy Mode](../guides/privacy-mode.md) before pasting family details into a public AI tool or sharing a GEDCOM.

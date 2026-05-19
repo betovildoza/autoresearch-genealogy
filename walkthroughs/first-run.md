@@ -109,8 +109,7 @@ Reject the run if:
 
 When you move from the fixture to your own data:
 
-1. Use `guides/privacy-mode.md`.
+1. Use [Privacy Mode](../guides/privacy-mode.md).
 2. Use [First Week Checklist](../checklists/first-week-checklist.md).
 3. Use [Prompt Picker](../guides/prompt-picker.md).
 4. Read the review card before accepting any AI changes.
-

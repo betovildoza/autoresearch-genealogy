@@ -43,6 +43,8 @@ Plain-language reference pages explain [source grades](guides/plain-language/sou
 
 If you do not use Obsidian, follow [No-Obsidian Setup](guides/no-obsidian-setup.md). The template works as a normal folder of markdown files.
 
+Before using public AI tools or sharing exports, follow [Privacy Mode](guides/privacy-mode.md).
+
 ### Prompts (`prompts/`)
 
 12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines inputs to replace, a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.

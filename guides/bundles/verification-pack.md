@@ -17,7 +17,7 @@ Use this when you already have a family tree and want to make it more trustworth
 
 ## Order
 
-1. Use `guides/privacy-mode.md`.
+1. Use [Privacy Mode](../privacy-mode.md).
 2. Run [02 Cross-Reference Audit](../../prompts/02-cross-reference-audit.md).
 3. Run [05 Source Citation Audit](../../prompts/05-source-citation-audit.md).
 4. Run [04 GEDCOM Completeness](../../prompts/04-gedcom-completeness.md) if you use GEDCOM.
@@ -48,4 +48,3 @@ Use these checks before accepting changes:
 - Under-sourced people and relationships.
 - GEDCOM issues to fix.
 - A clearer list of safe expansion targets.
-

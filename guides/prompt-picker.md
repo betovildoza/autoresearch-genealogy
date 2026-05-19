@@ -20,7 +20,7 @@ Go to the next question.
 
 ### Yes, and they have exact dates, addresses, emails, phone numbers, or private notes
 
-Next action: use `guides/privacy-mode.md`.
+Next action: use [Privacy Mode](privacy-mode.md).
 
 Do not run tree expansion yet. First mark living or possibly living people, remove exact private details from anything you plan to paste into a public AI tool, and decide what stays local.
 
@@ -103,8 +103,7 @@ Next action: use `guides/bundles/advanced-pack.md`.
 
 | State | Do first | Why |
 |---|---|---|
-| Living-person-heavy tree | `guides/privacy-mode.md` | Public AI tools should not receive private living-person details |
+| Living-person-heavy tree | [Privacy Mode](privacy-mode.md) | Public AI tools should not receive private living-person details |
 | No source files | `checklists/first-week-checklist.md` | AI needs known facts and source labels before it can help safely |
 | Known contradictions | `prompts/02-cross-reference-audit.md` | Expansion can spread mistakes through the tree |
 | DNA-only interpretation | `guides/bundles/dna-pack.md` | DNA suggests leads, it does not identify a specific ancestor by itself |
-

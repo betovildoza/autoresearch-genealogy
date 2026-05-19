@@ -10,13 +10,13 @@
 | 05 | Human Review Cards | done | validate-repo, privacy-audit | df20f95 |
 | 06 | Fictional Walkthrough | done | validate-repo, privacy-audit | 72c1405 |
 | 07 | Plain-Language Reference | done | validate-repo, privacy-audit | c889119 |
-| 08 | Obsidian-Lite Setup | done | validate-repo, privacy-audit | pending |
-| 09 | Privacy Mode | pending | - | - |
+| 08 | Obsidian-Lite Setup | done | validate-repo, privacy-audit | c63f6fc |
+| 09 | Privacy Mode | done | validate-repo, privacy-audit | pending |
 | 10 | Optional Static Site | deferred | - | - |
 
-## Current: Spec 09 - Privacy Mode
+## Current: Spec 10 - Optional Static Site
 
-Spec 08 complete. Next build step is `guides/privacy-mode.md`.
+Spec 09 complete. Static site remains deferred.
 
 ## Implementation Order
 
@@ -43,3 +43,4 @@ Spec 08 complete. Next build step is `guides/privacy-mode.md`.
 - 2026-05-19 Added a synthetic first-run walkthrough.
 - 2026-05-19 Added plain-language evidence and source guides.
 - 2026-05-19 Added no-Obsidian setup path.
+- 2026-05-19 Added privacy mode and validator coverage for required beginner files.

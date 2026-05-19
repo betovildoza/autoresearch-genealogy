@@ -18,7 +18,7 @@ Use this when you are starting with family stories, a small tree, or scattered n
 
 ## Order
 
-1. Use `guides/privacy-mode.md`.
+1. Use [Privacy Mode](../privacy-mode.md).
 2. Use `checklists/first-week-checklist.md`.
 3. Read [Getting Started](../../workflows/getting-started.md).
 4. If you already have source notes, run [02 Cross-Reference Audit](../../prompts/02-cross-reference-audit.md).
@@ -49,4 +49,3 @@ Use these checks before accepting changes:
 - Known facts separated from guesses.
 - A list of missing sources.
 - A smaller set of high-value expansion targets.
-

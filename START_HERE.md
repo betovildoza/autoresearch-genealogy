@@ -13,7 +13,7 @@ Do this first:
 - Keep every AI finding in “lead” status until you check the source.
 - Log searches that find nothing. Negative results prevent repeated dead ends.
 
-For the full privacy checklist, use `guides/privacy-mode.md` when it is available.
+For the full privacy checklist, use [Privacy Mode](guides/privacy-mode.md).
 
 ## Pick Your Starting Point
 
@@ -73,7 +73,7 @@ Only accept the finding if the source, identity match, dates, location, and rela
 
 Start with:
 
-1. `guides/privacy-mode.md`
+1. [Privacy Mode](guides/privacy-mode.md)
 2. `checklists/share-safely.md`
 3. `prompts/04-gedcom-completeness.md`
 

@@ -38,6 +38,8 @@ Use exact canonical vault file names from `reference/vault-file-manifest.md`.
 
 Do not include real family data in examples. Do not add exact birth dates, addresses, phone numbers, emails, or other private details for living or possibly living people.
 
+Before contributing examples, read [Privacy Mode](guides/privacy-mode.md). Use the synthetic fixture under `fixtures/minimal-vault/` when possible.
+
 If you maintain a private source vault, create an untracked `.private/anonymization-denylist.txt` file with sensitive surnames, place names, and phrases. `scripts/validate-repo` will scan tracked public files against it. The `.private/` directory is gitignored and must never be committed.
 
 Before publishing, also run:

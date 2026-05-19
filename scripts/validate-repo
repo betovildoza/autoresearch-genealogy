@@ -16,6 +16,28 @@ REQUIRED_FIXTURES = %w[
   fixtures/minimal-vault/templates/person.md
   fixtures/golden-runs/01-tree-expansion.md
 ].freeze
+REQUIRED_NORMIE_FILES = %w[
+  START_HERE.md
+  guides/prompt-picker.md
+  guides/privacy-mode.md
+  guides/no-obsidian-setup.md
+  guides/bundles/beginner-pack.md
+  guides/bundles/document-pack.md
+  guides/bundles/dna-pack.md
+  guides/bundles/verification-pack.md
+  guides/bundles/advanced-pack.md
+  checklists/first-week-checklist.md
+  checklists/scan-your-documents.md
+  checklists/interview-a-relative.md
+  checklists/verify-an-ai-finding.md
+  checklists/before-you-add-an-ancestor.md
+  checklists/share-safely.md
+  walkthroughs/first-run.md
+  guides/plain-language/source-grades.md
+  guides/plain-language/evidence-vs-clues.md
+  guides/plain-language/why-ai-can-be-wrong.md
+  guides/plain-language/what-counts-as-proof.md
+].freeze
 CANONICAL_CORE_PATHS = {
   "unresolved_persons.md" => "Unresolved_Persons.md",
   "chromosome_painting.md" => "Chromosome_Painting.md",
@@ -179,6 +201,19 @@ def check_review_cards
   end
 end
 
+def check_normie_usability
+  REQUIRED_NORMIE_FILES.each do |path|
+    error("#{path}: missing required beginner usability file") unless File.exist?(File.join(ROOT, path))
+  end
+
+  privacy_mode = File.join(ROOT, "guides/privacy-mode.md")
+  return unless File.exist?(privacy_mode)
+
+  text = File.read(privacy_mode)
+  error("guides/privacy-mode.md: must mention scripts/privacy-audit-repo") unless text.include?("scripts/privacy-audit-repo")
+  error("guides/privacy-mode.md: must include a living-person checklist") unless text.include?("## Living-Person Checklist")
+end
+
 def check_optional_privacy_denylist
   denylist_path = File.join(ROOT, ".private/anonymization-denylist.txt")
   return unless File.exist?(denylist_path)
@@ -205,6 +240,7 @@ check_markdown_links
 check_readme_counts
 check_fixtures
 check_review_cards
+check_normie_usability
 check_optional_privacy_denylist
 
 if @errors.empty?
