@@ -1,7 +1,8 @@
 ---
 type: transcription
 source: "~/Files/Genealogy/[path_to_source_image]"
-document_type: "[certificate | newspaper | letter | postcard | military | diploma | other]"
+evidence_crop: "[path to a cropped evidence image of the exact record row, or leave blank]"
+document_type: "[certificate | newspaper | letter | postcard | register | military | diploma | other]"
 person: "[Name1], [Name2]"
 date: YYYY-MM-DD
 created: YYYY-MM-DD
@@ -24,6 +25,13 @@ ocr_quality: "[good | partial | bad]"
 | [Date mentioned] | [date as written] | High / Moderate / Low |
 | [Place mentioned] | [place as written] | High / Moderate / Low |
 | [Relationship stated] | [relationship] | High / Moderate / Low |
+
+## Evidence Image
+
+[For records read from an online image archive, link the saved crop of the exact entry row and give the full citation: archive and collection, page or image ID, and entry number. Leave blank for documents with no image crop.]
+
+- Crop: `[evidence_crop path]`
+- Citation: [archive and collection, image ID, entry number]
 
 ## Notes
 

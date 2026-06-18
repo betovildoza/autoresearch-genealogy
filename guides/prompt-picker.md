@@ -98,6 +98,7 @@ Next action: use `guides/bundles/advanced-pack.md`.
 | [10 Colonial Records Search](../prompts/10-colonial-records-search.md) | You are researching pre-1800 American lines with sparse vital records | [review card](../review-cards/10-colonial-records-search.md) |
 | [11 Immigration Search](../prompts/11-immigration-search.md) | You need passenger lists, border crossings, naturalization records, or origin clues | [review card](../review-cards/11-immigration-search.md) |
 | [12 DNA Chromosome Analysis](../prompts/12-dna-chromosome-analysis.md) | You have segment data and want leads that stay separate from documentary proof | [review card](../review-cards/12-dna-chromosome-analysis.md) |
+| [13 Image Archive Deep Dive](../prompts/13-image-archive-deep-dive.md) | The records you need are scanned page images with no searchable index, so you must browse, read, and crop the entry yourself | [review card](../review-cards/13-image-archive-deep-dive.md) |
 
 ## Risky States
 

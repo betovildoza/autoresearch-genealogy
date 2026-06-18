@@ -58,6 +58,7 @@ Every prompt has a matching review card. Read the card after the prompt finishes
 | 10 Colonial Records Search | [review-cards/10-colonial-records-search.md](../review-cards/10-colonial-records-search.md) |
 | 11 Immigration Search | [review-cards/11-immigration-search.md](../review-cards/11-immigration-search.md) |
 | 12 DNA Chromosome Analysis | [review-cards/12-dna-chromosome-analysis.md](../review-cards/12-dna-chromosome-analysis.md) |
+| 13 Image Archive Deep Dive | [review-cards/13-image-archive-deep-dive.md](../review-cards/13-image-archive-deep-dive.md) |
 
 ## Prerequisites
 
@@ -80,7 +81,7 @@ Common placeholders include:
 - `[VAULT_PATH]` — The path to your vault (e.g., `~/Vaults/MyVault/Genealogy/`)
 - `[GEDCOM_PATH]` — The path to your GEDCOM file
 
-Each prompt also lists any prompt-specific placeholders such as `[DEATH YEAR]`, `[COUNTY]`, `[STATE]`, `[YEAR RANGE]`, or `[SOURCE_URL_OR_PATH]` in its `Inputs To Replace` section.
+Each prompt also lists any prompt-specific placeholders such as `[DEATH YEAR]`, `[COUNTY]`, `[STATE]`, `[YEAR RANGE]`, `[SOURCE_URL_OR_PATH]`, `[ARCHIVE_URL]`, `[COLLECTION]`, `[IMAGE_ID_RANGE]`, or `[EVIDENCE_DIR]` in its `Inputs To Replace` section.
 
 ## Privacy
 

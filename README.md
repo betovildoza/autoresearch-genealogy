@@ -47,7 +47,7 @@ Before using public AI tools or sharing exports, follow [Privacy Mode](guides/pr
 
 ### Prompts (`prompts/`)
 
-12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines inputs to replace, a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
+13 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines inputs to replace, a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, browsing image archives, updating your vault, and verifying their own work.
 
 | Prompt | Purpose |
 |---|---|
@@ -63,6 +63,7 @@ Before using public AI tools or sharing exports, follow [Privacy Mode](guides/pr
 | 10-colonial-records-search | Search for colonial American ancestors in pre-1800 records |
 | 11-immigration-search | Locate passenger manifests and naturalization records |
 | 12-dna-chromosome-analysis | Analyze per-chromosome ancestry data to map genetic segments |
+| 13-image-archive-deep-dive | Browse image-only archives, read entries, and save cropped evidence images |
 
 ### Vault Template (`vault-template/`)
 
@@ -89,7 +90,7 @@ Before using public AI tools or sharing exports, follow [Privacy Mode](guides/pr
 
 ### Workflows (`workflows/`)
 
-7 step-by-step guides: getting started, OCR pipeline, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
+8 step-by-step guides: getting started, OCR pipeline, image archive navigation, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
 
 ### Examples (`examples/`)
 

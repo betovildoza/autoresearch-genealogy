@@ -128,7 +128,7 @@ end
 
 def check_prompts
   prompt_paths = Dir[File.join(ROOT, "prompts/[0-9]*.md")].sort
-  error("expected 12 numbered prompts, found #{prompt_paths.length}") unless prompt_paths.length == 12
+  error("expected 13 numbered prompts, found #{prompt_paths.length}") unless prompt_paths.length == 13
 
   prompt_paths.each do |path|
     text = File.read(path)

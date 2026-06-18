@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-06-18
+
+Image-only archive support.
+
+### Added
+- Prompt `13-image-archive-deep-dive` for exhausting scanned, unindexed record collections by browsing page images, reading entries, and saving cropped evidence images.
+- Review card `13-image-archive-deep-dive` covering image citations, crop discipline, and illegible-scan failure modes.
+- Workflow `image-archive-navigation` documenting collection triage with contact sheets, image-ID range scanning, full-size reading, and the crop-and-check evidence step.
+- `evidence_crop` field and an Evidence Image section in the transcription template for record row crops.
+
+### Changed
+- `scripts/validate-repo` now expects 13 numbered prompts and review cards.
+- README and prompt picker route the new image-archive prompt; `register` added to the transcription `document_type` options.
+
 ## 2026-05-19
 
 Initial sanitized public release.
